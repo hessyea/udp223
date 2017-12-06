@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "app2.js"
+    "start": "./bin/app2.js"
   },
   "dependencies": {
 	"dgram": "*"

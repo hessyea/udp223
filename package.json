@@ -1,11 +1,11 @@
 {
-  "name": "passport-no",
+  "name": "passport-mongo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/app2.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-	"dgram": "*"
+    "socket.io": "^2.0.4"
   }
 }

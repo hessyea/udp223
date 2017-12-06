@@ -1,6 +1,6 @@
 
 var PORT = 80;
-var HOST = 'https://udp22.herokuapp.com/';
+var HOST = server.address();
 
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
